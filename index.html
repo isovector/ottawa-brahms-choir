@@ -1,116 +1,15 @@
 <html>
   <head>
-    <title>The Ottawa Brahms Choir</title>
+    <title>Ottawa Brahms Choir</title>
 
 <link href="https://fonts.googleapis.com/css?family=Niconne" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
 
-<style type="text/css">
-body {
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(77, 0, 77, 0.2));
-  color: #000;
-  font-family: sans-serif;
-  margin: 0;
-
-  text-align: justify;
-  font-size:20px;
-  line-height:38px;
-}
-
-div#main {
-  width: 840px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  flex-grow: 1;
-}
-
-body {
-  min-height: 100vh;
-}
-
-div#content {
-  flex: 1;
-  flex-grow: 1;
-  border-top: 1px solid #000;
-}
-
-header {
-}
-
-ul#nav {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  margin-bottom: 1em;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-ul#nav > li {
-  display: inline-block;
-  width: 122px;
-  font-size: 20pt;
-  margin: 0px;
-  vertical-align: bottom;
-  text-align: left;
-}
-
-ul#nav > li::after {
-}
-
-a {
-  color: #000;
-  text-decoration: none;
-}
-
-.underline {
-  position: relative;
-  margin: 3px;
-}
-.underline:hover,
-.underline:focus,
-.underline:active {
-  /* cursor: pointer;*/
-}
-.underline:hover:after,
-.underline:focus:after,
-.underline:active:after {
-  width: 100%;
-}
-.underline:after {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: -7px;
-  height: 4px;
-  background-color: #000;
-  width: 0;
-  transition: width 0.25s;
-}
-
-
-h1 {
-  font-family: 'Niconne', cursive;
-  text-align: center;
-  font-size: 48pt;
-  font-weight: normal;
-  margin-bottom: 1.2em;
-}
-
-
-footer {
-  background: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(77, 0, 77, 0.2));
-  width: 100%;
-  height: 20px;
-}
-</style>
   </head>
   <body>
-    <div id="main">
     <header>
-      <h1>The Ottawa Brahms Choir</h1>
+      <div class="main">
+      <h1>Ottawa Brahms Choir</h1>
 
       <ul id="nav">
         <li class="underline"><a href="#">Buy Tickets</a></li>
@@ -120,32 +19,24 @@ footer {
         <li class="underline"><a href="#">About OB Choir</a></li>
       </ul>
     </header>
+      </div>
+
     <div id="content">
+      <div class="main">
+
+        <div class="hero">
+          <!-- <h3>Christopher Askwith conducts</h3> -->
+          <span class="season">18/19</span>
+          <h2>The Peace of Christmas</h2>
+          <div class="datetime">
+<span class="dow">Sun</span>
+<span class="date">Dec 2</span>
+<span class="time">3pm</span>
+          </div>
+        </div>
 
 
 
-
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nulla diam,
-commodo ut lacinia ac, sodales non elit. Nunc sed nibh sem. Vestibulum
-hendrerit eros at interdum porta. Suspendisse facilisis non augue vel maximus.
-Nulla laoreet, sem in facilisis dignissim, nunc felis malesuada lectus, sit
-amet gravida metus nunc sed augue. Nulla sit amet justo dolor. Quisque rhoncus,
-odio eget tincidunt feugiat, dui quam faucibus nisi, a volutpat quam arcu eu
-arcu. In hac habitasse platea dictumst.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nulla diam,
-commodo ut lacinia ac, sodales non elit. Nunc sed nibh sem. Vestibulum
-hendrerit eros at interdum porta. Suspendisse facilisis non augue vel maximus.
-Nulla laoreet, sem in facilisis dignissim, nunc felis malesuada lectus, sit
-amet gravida metus nunc sed augue. Nulla sit amet justo dolor. Quisque rhoncus,
-odio eget tincidunt feugiat, dui quam faucibus nisi, a volutpat quam arcu eu
-arcu. In hac habitasse platea dictumst.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nulla diam,
-commodo ut lacinia ac, sodales non elit. Nunc sed nibh sem. Vestibulum
-hendrerit eros at interdum porta. Suspendisse facilisis non augue vel maximus.
-Nulla laoreet, sem in facilisis dignissim, nunc felis malesuada lectus, sit
-amet gravida metus nunc sed augue. Nulla sit amet justo dolor. Quisque rhoncus,
-odio eget tincidunt feugiat, dui quam faucibus nisi, a volutpat quam arcu eu
-arcu. In hac habitasse platea dictumst.</p>
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nulla diam,
 commodo ut lacinia ac, sodales non elit. Nunc sed nibh sem. Vestibulum
 hendrerit eros at interdum porta. Suspendisse facilisis non augue vel maximus.
@@ -162,11 +53,31 @@ amet gravida metus nunc sed augue. Nulla sit amet justo dolor. Quisque rhoncus,
 odio eget tincidunt feugiat, dui quam faucibus nisi, a volutpat quam arcu eu
 arcu. In hac habitasse platea dictumst.</p>
 
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nulla diam,
+commodo ut lacinia ac, sodales non elit. Nunc sed nibh sem. Vestibulum
+hendrerit eros at interdum porta. Suspendisse facilisis non augue vel maximus.
+Nulla laoreet, sem in facilisis dignissim, nunc felis malesuada lectus, sit
+amet gravida metus nunc sed augue. Nulla sit amet justo dolor. Quisque rhoncus,
+odio eget tincidunt feugiat, dui quam faucibus nisi, a volutpat quam arcu eu
+arcu. In hac habitasse platea dictumst.</p>
+
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nulla diam,
+commodo ut lacinia ac, sodales non elit. Nunc sed nibh sem. Vestibulum
+hendrerit eros at interdum porta. Suspendisse facilisis non augue vel maximus.
+Nulla laoreet, sem in facilisis dignissim, nunc felis malesuada lectus, sit
+amet gravida metus nunc sed augue. Nulla sit amet justo dolor. Quisque rhoncus,
+odio eget tincidunt feugiat, dui quam faucibus nisi, a volutpat quam arcu eu
+arcu. In hac habitasse platea dictumst.</p>
+
+      </div>
     </div>
 
     <footer>
+      <div class="main">
+        hello
+      </div>
     </footer>
-    </div>
 
   </body>
 

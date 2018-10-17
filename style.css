@@ -1,0 +1,206 @@
+body {
+  background: #fdfffc;
+  color: #011627;
+  font-family: sans-serif;
+  margin: 0;
+
+  text-align: justify;
+  font-size:20px;
+  line-height:38px;
+
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+div.main {
+  width: 840px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-grow: 1;
+}
+
+div#content {
+  flex: 1;
+  flex-grow: 1;
+  padding-top: 3em;
+  /* background-image: linear-gradient(to bottom, white, rgba(0, 70, 150, 0.1)); */
+}
+
+div.hero {
+  z-index: 1;
+  width: 840px;
+  height: 400px;
+  background-image: url("choir.jpg");
+  background-position: right;
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  /* background-image: linear-gradient(to bottom right, red, yellow); */
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hero::before,
+.hero::after {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  content: '';
+}
+
+.hero::before {
+  border-bottom: 300px solid rgba(0, 70, 150, 0.3);
+  border-left: 840px solid transparent;
+}
+
+.hero::after {
+  border-bottom: 100px solid white;
+  border-left: 840px solid transparent;
+}
+
+.hero > h2 {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  font-size: 28pt;
+  font-family: serif;
+  margin-left: 32px;
+  padding: 0.4em;
+  width: 600px;
+}
+
+.hero > .datetime {
+  color: white;
+  padding-left: 0.1em;
+  padding-right: 0.2em;
+  font-family: sans-serif;
+  font-size: 10pt;
+  font-variant: small-caps;
+  background-color: rgba(0, 0, 0, 0.6);
+  line-height: 22px;
+  padding: 0.5em;
+  margin-left: 32px;
+  margin-bottom: 32px;
+  width: 80px;
+}
+
+.hero > .datetime > .dow {
+  font-size: 14pt;
+  display: block;
+}
+
+.hero > .datetime > .date {
+  font-size: 18pt;
+  display: block;
+  font-family: serif;
+}
+
+.hero > .datetime > .time {
+  font-size: 14pt;
+  display: block;
+}
+
+.hero > .season {
+  width: 50px;
+  margin-left: 32px;
+  margin-top: 32px;
+  color: white;
+  padding-left: 0.1em;
+  padding-right: 0.2em;
+  font-family: sans-serif;
+  font-size: 12pt;
+  text-transform: lowercase;
+  background-color: rgba(0, 0, 0, 0.6);
+  line-height: 16px;
+  padding: 0.5em;
+  display: block;
+  width: default;
+}
+
+.hero > .season:after {
+  color: white;
+  content: 'Season';
+  display: block;
+  font-size: 10pt;
+  font-family: serif;
+}
+
+header {
+  /* border-bottom: 1px dotted #011627; */
+  border-bottom: 1px solid #ff9f1c;
+  color: #160c28;
+}
+
+ul#nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+ul#nav > li {
+  display: inline-block;
+  width: 96px;
+  font-size: 14pt;
+  margin: 0px;
+  vertical-align: bottom;
+  text-align: left;
+  line-height:26px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.underline {
+  position: relative;
+  margin: 3px;
+}
+.underline:hover,
+.underline:focus,
+.underline:active {
+  /* cursor: pointer;*/
+}
+.underline:hover:after,
+.underline:focus:after,
+.underline:active:after {
+  width: 100%;
+}
+.underline:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -7px;
+  height: 4px;
+  background-color: rgba(0, 70, 150, 1);
+  width: 0;
+  transition: width 0.25s;
+}
+
+
+header h1 {
+  /* font-family: 'Niconne', cursive; */
+  font-family: serif;
+  text-align: right;
+  /* font-size: 36pt; */
+  font-size: 32pt;
+  font-weight: normal;
+  margin-bottom: 0.8em 0;
+  /* color: e71d36; */
+}
+
+
+footer {
+  border-top: 1px solid #ff9f1c;
+}
