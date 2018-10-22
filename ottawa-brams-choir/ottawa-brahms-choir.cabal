@@ -1,0 +1,41 @@
+-- This file has been generated from package.yaml by hpack version 0.28.2.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: f5084f86ea49a7aecb6fb5b83cab42d5e721b06f93f41e30d3b65575271bd32e
+
+name:           ottawa-brahms-choir
+version:        0.1.0.0
+description:    Please see the README on GitHub at <https://github.com/githubuser/ottawa-brams-choir#readme>
+homepage:       https://github.com/githubuser/ottawa-brams-choir#readme
+bug-reports:    https://github.com/githubuser/ottawa-brams-choir/issues
+author:         Author name here
+maintainer:     example@example.com
+copyright:      2018 Author name here
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+cabal-version:  >= 1.10
+extra-source-files:
+    ChangeLog.md
+    README.md
+
+source-repository head
+  type: git
+  location: https://github.com/githubuser/ottawa-brams-choir
+
+executable ottawa-brahms-choir
+  main-is: Main.hs
+  other-modules:
+      Paths_ottawa_brahms_choir
+  hs-source-dirs:
+      app
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , lens
+    , lens-aeson
+    , sitepipe
+    , string-conv
+    , text
+  default-language: Haskell2010

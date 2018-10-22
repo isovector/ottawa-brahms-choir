@@ -1,0 +1,8 @@
+resolver: lts-9.0
+packages:
+  - .
+extra-deps:
+  - sitepipe-0.3.0.0
+  - lens-4.15.4
+  - lens-aeson-1.0.2
+  - profunctors-5.2.2
