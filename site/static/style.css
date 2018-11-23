@@ -187,7 +187,7 @@ span.wide-copy {
   max-width: 40em;
 }
 
-button#buy, input[type=submit] {
+button, input[type=submit] {
   font-weight: bold;
   text-transform: uppercase;
   color: white;
@@ -198,13 +198,17 @@ button#buy, input[type=submit] {
   cursor: pointer;
 }
 
-button#buy {
+button {
   display: block;
   padding: 0.5em 0.8em;
-  font-size: 16pt;
   margin: 0 auto;
   margin-top: 1.5em;
   margin-bottom: inherit;
+}
+
+
+button#buy {
+  font-size: 16pt;
 }
 
 input[type=submit] {
