@@ -205,6 +205,10 @@ footer > div {
   margin-right: 2em;
 }
 
+footer img {
+  margin-right: 1em;
+}
+
 h4 {
   text-transform: uppercase;
 }
