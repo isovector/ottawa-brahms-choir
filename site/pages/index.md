@@ -3,6 +3,7 @@ layout: home
 video-url: https://www.youtube.com/embed/FBeR94Bqbxk?rel=0&start=18&showinfo=0
 
 event:
+  title: The Peace of Christmas
   tickets-url: https://www.eventbrite.ca/e/the-peace-of-christmas-tickets-51383576661
   description: >
     Join us for a magical afternoon of choral music and caroling under the

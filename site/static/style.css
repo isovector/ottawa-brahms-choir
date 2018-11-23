@@ -12,6 +12,14 @@ header {
   margin-left: 3em;
 }
 
+h1 {
+  margin: 0;
+}
+
+img#logo {
+  height: 3em;
+}
+
 div#main {
   width: 100%;
   max-width: 1600px;
@@ -22,16 +30,22 @@ div#main {
   flex-grow: 1;
 }
 
+nav {
+  flex-grow: 1;
+  display: flex;
+  padding: 0;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
 ul#nav {
   list-style: none;
   padding: 0;
   margin: 0;
-  margin-left: 3em;
-  margin-top: 1.5em;
-  margin-right: 3em;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  align-items: center;
   flex-grow: 1;
 }
 
@@ -62,6 +76,20 @@ div.event {
   padding-bottom: 3em;
   z-index: 1;
   position: relative;
+}
+
+div.hero {
+  background-color: rgba(43, 25, 61);
+  color: white;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  z-index: 1;
+  position: relative;
+  margin-bottom: 2em;
+}
+
+a, a:hover {
+  color: #313b72;
 }
 
 div.ctas {
@@ -97,6 +125,27 @@ span.time {
 }
 footer {
   flex-direction: column !important;
+}
+}
+
+@media only screen and (max-width: 1275px) {
+header {
+  flex-direction: column !important;
+  margin-left: 0 !important;
+}
+nav {
+  margin-top: 1em !important;
+  margin-bottom: 2em !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+ul#nav > li {
+  margin-left: 0 !important;
+}
+
+ul#nav {
+  justify-content: space-around !important;
 }
 }
 
@@ -256,3 +305,9 @@ div.details:after {
   content: '';
   flex: 1;
 }
+
+div.content {
+  text-align: justify;
+  margin-bottom: 2em;
+}
+
