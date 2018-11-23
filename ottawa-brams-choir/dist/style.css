@@ -31,7 +31,7 @@ ul#nav {
   margin-right: 3em;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-end;
   flex-grow: 1;
 }
 
@@ -39,7 +39,7 @@ ul#nav > li {
   display: inline-block;
   width: 96px;
   font-size: 14pt;
-  margin: 0px;
+  margin-left: 3em;
   vertical-align: bottom;
   text-align: left;
   line-height:26px;
@@ -52,7 +52,7 @@ ul#nav a {
 }
 
 div.event {
-  background-image: url("choir2.jpg");
+  background-image: var(--event-image);
   background-color: rgba(43, 25, 61);
   background-blend-mode: multiply;
   background-size: cover;
@@ -138,11 +138,7 @@ span.wide-copy {
   max-width: 40em;
 }
 
-button#buy {
-  display: block;
-  margin: 0 auto;
-  margin-top: 1.5em;
-  margin-bottom: inherit;
+button#buy, input[type=submit] {
   font-weight: bold;
   text-transform: uppercase;
   color: white;
@@ -150,9 +146,20 @@ button#buy {
   background-color: #2b193d;
   border: 0;
   border-radius: 0;
+  cursor: pointer;
+}
+
+button#buy {
+  display: block;
   padding: 0.5em 0.8em;
   font-size: 16pt;
-  cursor: pointer;
+  margin: 0 auto;
+  margin-top: 1.5em;
+  margin-bottom: inherit;
+}
+
+input[type=submit] {
+  padding: 0.5em 0.8em;
 }
 
 div#form {

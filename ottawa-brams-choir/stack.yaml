@@ -6,3 +6,4 @@ extra-deps:
   - lens-4.15.4
   - lens-aeson-1.0.2
   - profunctors-5.2.2
+  - strptime-1.0.10

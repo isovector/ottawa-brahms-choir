@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: f5084f86ea49a7aecb6fb5b83cab42d5e721b06f93f41e30d3b65575271bd32e
+-- hash: 0f7a412dfb87729e395f9b8f791a24de353e1e24511099569a4fbb24b440e8c5
 
 name:           ottawa-brahms-choir
 version:        0.1.0.0
@@ -32,10 +32,13 @@ executable ottawa-brahms-choir
       app
   ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
-      base >=4.7 && <5
+      aeson
+    , base >=4.7 && <5
     , lens
     , lens-aeson
     , sitepipe
     , string-conv
+    , strptime
     , text
+    , time
   default-language: Haskell2010

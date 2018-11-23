@@ -26,6 +26,9 @@ dependencies:
 - lens-aeson
 - string-conv
 - text
+- time
+- strptime
+- aeson
 
 executables:
   ottawa-brahms-choir:

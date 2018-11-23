@@ -1,22 +1,17 @@
 {{> templates/header.html}}
 
-      <div class="event">
+      <div id="event" class="event" style="--event-image: url('{{event.image}}')">
         <h2>The Peace of Christmas</h2>
         <div class="details">
           <div class="datetime">
-            <span class="dow">Sun</span>
-            <span class="date">Dec 2</span>
-            <span class="time">3pm</span>
+            <span class="dow">{{event.time.dow}}</span>
+            <span class="date">{{event.time.date}}</span>
+            <span class="time">{{event.time.time}}</span>
           </div>
-          <div id="eventdetails">
-            Join us for a magical afternoon of choral music and caroling under
-            the musical direction of Christopher Askwith. Featuring works from
-            Brahms, Mendelssohn, Rachmaninoff, J.S. Bach, Gounod, Sch&uuml;tz,
-            Handel and more.
-          </div>
+          <div id="eventdetails">{{{event.description}}}</div>
         </div>
         <form>
-          <button id="buy" formaction="{{buy-tickets}}">Buy Tickets</button>
+          <button id="buy" formaction="{{event.tickets-url}}">Buy Tickets</button>
         </form>
       </div>
       <div class="ctas">
@@ -28,10 +23,7 @@
             for new members.
           </span>
           <div id="form">
-            <form method="post" action="#">
-              <input type="text" />
-              <input type="submit" value=">>" />
-            </form>
+            {{> templates/mailchimp.html}}
           </div>
         </div>
         <div class="join">
@@ -45,22 +37,11 @@
         </div>
       </div>
       <div class="about">
-        <h3>About Us</h3>
         <span class="wide-copy">
-          <p>
-            The Ottawa Brahms Choir was founded in 1980 by Dieter Kiesewalter
-            as a local German community Choir. Currently directed by Christopher
-            Askwith and accompanied by Svetlana Logigan, the choir continues to
-            offer audiences a wide range of choral music, from classical to
-            contemporary, while maintaining its roots in the German
-            repertoire.
-          </p>
-          <p>
-            The choir rehearses at Southminster United Church, on the corner of
-            Bank and Aylmer, every Monday evenings at 7 pm.
-          </p>
+        {{{content}}}
         </span>
-        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/FBeR94Bqbxk?rel=0&start=18&showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+        <iframe id="video" width="560" height="315" src="{{video-url}}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
       </div>
 
 {{> templates/footer.html}}
