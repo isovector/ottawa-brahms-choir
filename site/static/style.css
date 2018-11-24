@@ -22,7 +22,7 @@ img#logo {
 
 div#main {
   width: 100%;
-  max-width: 1600px;
+  max-width: 1920px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -250,9 +250,11 @@ footer {
   color: white;
   font-size: 12pt;
   justify-content: center;
+  padding-bottom: 1em;
 }
 
 footer > div {
+  text-align: center;
   width: 20em;
   margin-left: 2em;
   margin-right: 2em;
