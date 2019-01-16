@@ -5,10 +5,10 @@ title: Join Us
 
 The Ottawa Brahms Choir is a diverse, fun and community-oriented choir. Our
 primary musical repertoire is in German, but we often sing in English, French,
-Latin and Russian as well. We practice weekly on <strong>Mondays at 7pm</strong>
-in the [Southminster United Church][map].  Prospective members are encouraged to
-join us at any time during the season. It's a fun, no-commitment and
-<em>no-audition process</em>!
+Latin and Russian as well. We practice weekly on **Mondays at 7pm** in the
+[Southminster United Church][map].  Prospective members are encouraged to join
+us at any time during the season. It's a fun, no-commitment and *no-audition
+process*!
 
 [map]: http://maps.google.ca/maps?q=%207%20Galt%20Street%20ottawa
 

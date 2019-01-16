@@ -22,6 +22,8 @@ range of choral music, from classical to contemporary, while maintaining its
 roots in the German repertoire.
 
 The choir rehearses at Southminster United Church, on the corner of Bank and
-Aylmer, every Monday evening at 7 pm. Prospective members are invited to drop
-in!
+Aylmer, every Monday evening at 7 pm. Prospective members are invited to [drop
+in!](/join-us.html)
+
+[Learn More!](/about.html)
 
