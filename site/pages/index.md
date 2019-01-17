@@ -3,13 +3,13 @@ layout: home
 video-url: https://www.youtube.com/embed/FBeR94Bqbxk?rel=0&start=18&showinfo=0
 
 event:
-  title: The Peace of Christmas
-  tickets-url: https://www.eventbrite.ca/e/the-peace-of-christmas-tickets-51383576661
+  title: Rebirth
+  tickets-url: https://www.eventbrite.ca/e/rebirth-tickets-55021756555
   description: >
-    Join us for a magical afternoon of choral music and caroling under the
+    Join us for a reawakening spring afternoon of choral music under the
     musical direction of Christopher Askwith. Featuring works from Brahms,
-    Mendelssohn, Rachmaninoff, J.S. Bach, Gounod, Sch&uuml;tz, Handel and more.
-  time: 2018-12-02 15:00
+    Bach, Rutter, Gaunlett and more.
+  time: 2019-04-28 15:00
   image: choir2.jpg
 ---
 
