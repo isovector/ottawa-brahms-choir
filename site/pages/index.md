@@ -10,7 +10,7 @@ event:
     musical direction of Christopher Askwith. Featuring works from Brahms,
     Bach, Rutter, Gaunlett and more.
   time: 2019-04-28 15:00
-  image: choir2.jpg
+  image: choir3.jpg
 ---
 
 ### About Us
